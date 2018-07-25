@@ -9,5 +9,5 @@ import (
 
 func Router(r *mux.Router) {
 	fmt.Println("Run Routers")
-	r.HandleFunc("/", controllers.Check)
+	r.HandleFunc("/v1/", controllers.Check)
 }
