@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/bankzxcv/streamproject/db"
+	//"github.com/bankzxcv/streamproject/db"
 	"github.com/bankzxcv/streamproject/routes"
 	"github.com/gorilla/mux"
 )
@@ -12,7 +12,7 @@ import (
 func init() {
 	fmt.Println("Initial Data")
 	// Init Database
-	db.InitDb()
+	// db.InitDb()
 }
 
 func main() {
